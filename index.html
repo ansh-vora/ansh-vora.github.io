@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Portfolio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/fa62c117c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Ansh Vora</title> .
+  </head>
+  <body class="light" id="top">
+    <header class="header center">
+      <h3>
+        <a href="https://destyn8.github.io/" class="link" target="_blank" 
+          >{AV}</a
+        >
+      </h3>
+
+      <nav class="nav center">
+        <ul class="nav__list center">
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#projects">Projects</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#skills">Skills</a>
+          </li>
+          <li class="nav__list-item">
+            <a class="link link--nav" href="#Internship">Certifications</a>
+          </li>
+        </ul>
+
+        <button type="button" aria-label="toggle theme" class="btn btn--icon">
+          <i aria-hidden="true" id="btn-theme" class="fas fa-moon"></i>
+        </button>
+
+        <button
+          type="button"
+          aria-label="toggle navigation"
+          class="btn btn--icon nav__hamburger"
+        >
+          <i aria-hidden="true" class="fas fa-bars"></i>
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <!-- About -->
+      <div class="about center">
+        <h1>Hi, I am <span class="about__name">Ansh Vora.</span></h1>
+        <h2 class="about__role">Cloud Configuration</h2>
+        <p class="about__desc">
+          Hello, My Name is Ansh, I am a 20 year old Bachelor’s student studying Computer Applications in Bangalore, IN. I work with Cloud compute, configuration, and migration, network security for bare metal, and cloud solutions: Configuring ACL(s), Firewalls, Security Groups, DMZ, and VLAN(s). Certifications and projects spread mainly across AWS, OCI and GCP.
+        </p> <!-- about you -->
+        <br>
+        <a href="mailto:anshvora.av@gmail.com">Mail: anshvora.av@gmail.com </a><p> Contact: +91 9825362039</p>
+      </br>
+      
+
+        <div class="about__contact center">
+          <a href="https://drive.google.com/file/d/1ZyJTn1dcCO4_u5TkS9ZxkFMgQ80bDqFP/view?usp=drive_link" target="_blank"  > 
+            <span class="btn btn--outline">Resume</span> 
+          </a>
+
+          <a
+            href="https://github.com/destyn8" target="_blank"
+            aria-label="github"
+            class="link link--icon"
+          >
+            <i aria-hidden="true" class="fab fa-github"></i>
+          </a> <!-- Github profile Link-->
+
+          <a
+            href="https://www.linkedin.com/in/ansh-vora-434a87203/" target="_blank"  
+            aria-label="linkedin"
+            class="link link--icon"
+          > 
+            <i aria-hidden="true" class="fab fa-linkedin"></i>
+          </a> <!-- LinledIn profile Link-->
+        </div>
+      </div>
+
+      <!-- Projects -->
+      <section id="projects" class="section projects">
+        <h2 class="section__title">Projects</h2>
+
+        <div class="projects__grid">
+          <div class="project">
+            <h3>Khoj-A-Recursive-DNS-Resolver</h3>
+            <p class="project__description">
+              This project aims to Recursively Resolving DNS records through a local server which can be hosted on an SBC
+            </p> <!--Project description-->
+            <ul class="project__stack">
+              <li class="project__stack-item">C</li>
+              <li class="project__stack-item">DNS</li>
+              <li class="project__stack-item">UDP</li>
+            </ul>
+
+            <a
+              href="https://github.com/destyn8/Khoj-A-Recursive-DNS-Resolver" target="_blank"
+              aria-label="source code"
+              class="link link--icon"
+            >
+
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Naksha-MapBased-Visual-Packet-Sniffer </h3>
+            <p class="project__description">
+              Naksha, is a python based thread-safe and multithreaded visual packet sniffer. This creates a geographical coordinate based visualisation of packet exchange from the your home gateway.
+            </p>
+            <ul class="project__stack">
+              <li class="project__stack-item">Python</li>
+              <li class="project__stack-item">JavaScript</li>
+              <li class="project__stack-item">SCSS</li>
+              <li class="project__stack-item">HTML</li>
+            </ul>
+
+            <a
+              href="https://github.com/destyn8/Naksha-MapBased-Visual-Packet-Sniffer" target="_blank"
+              aria-label="https://github.com/destyn8/Naksha-MapBased-Visual-Packet-Sniffer" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+
+          <div class="project">
+            <h3>Khat-Bhasha-lang </h3>
+            <p class="project__description">
+              A procedural programming language, interpreted in C, influenced over hindi-based scriptures, with informal linguistic patterns roughly translating into computer readable grammar.</p>
+            <ul class="project__stack">
+              <li class="project__stack-item">C</li>
+              <li class="project__stack-item">Bison Parser</li>
+            </ul>
+
+            <a
+              href="https://github.com/destyn8/Khat-Bhasha-lang" target="_blank"
+              aria-label="https://github.com/destyn8/Khat-Bhasha-lang" target="_blank"
+              class="link link--icon"
+            >
+              <i aria-hidden="true" class="fab fa-github"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section id="Internship" class="section Internship" id="Internship">
+        <h2 class="section__title">Certifications</h2>
+
+      <div class="project">
+        <h3>Google Cloud Computing Foundations Certificate</h3>
+        <p class="project__description">
+          This certificate program helps learners develop technical proficiency in cloud computing
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Google Cloud Platform (GCP)</li>
+          <li class="project__stack-item">Kubernetes</li>
+          <li class="project__stack-item">GCP Load Balancer</li>
+        </ul>
+
+        <a
+          href="https://www.credly.com/badges/c917cfe1-64bc-4b01-b770-372e976c0c69/public_url"  
+          aria-label="https://www.credly.com/badges/c917cfe1-64bc-4b01-b770-372e976c0c69/public_url" target="_blank"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+        <h3>AWS Academy Cloud Foundations</h3>
+        <p class="project__description">
+          This certificate program helps understand technical and practical foundations towards AWS
+        </p>
+        <ul class="project__stack">
+          <li class="project__stack-item">Amazon Web Services (AWS)</li>
+          <li class="project__stack-item">Amazon Route 53</li>
+          <li class="project__stack-item">Amazon Cloud Formation (YAML)</li>
+        </ul>
+
+        <a
+          href="https://www.credly.com/badges/15ba5d3d-3442-4b69-845a-ee936e98f1b1/print"  
+          aria-label="https://www.credly.com/badges/15ba5d3d-3442-4b69-845a-ee936e98f1b1/print" target="_blank"
+          class="link link--icon"
+        >
+          <i aria-hidden="true" class="fab fa-github"></i>
+        </a>
+
+      </div>
+    </div>
+  </section>
+      
+      <!-- Skills -->
+      <section class="section skills" id="skills">
+        <h2 class="section__title">Skills</h2>
+        <ul class="skills__list">
+          <li class="skills__list-item btn btn--plain">Python</li>
+          <li class="skills__list-item btn btn--plain">Java</li>
+          <li class="skills__list-item btn btn--plain">C</li>
+          <li class="skills__list-item btn btn--plain">JavaScript</li>
+          <li class="skills__list-item btn btn--plain">Amazon Web Services (AWS)</li>
+          <li class="skills__list-item btn btn--plain">Google Cloud Foundations (GCP)</li>
+          <li class="skills__list-item btn btn--plain">HTTP</li>
+          <li class="skills__list-item btn btn--plain">DNS</li>
+          <li class="skills__list-item btn btn--plain">DHCP</li>
+          <li class="skills__list-item btn btn--plain">IGP and BGP</li>
+          <li class="skills__list-item btn btn--plain">Git</li>
+          <li class="skills__list-item btn btn--plain">DMZ</li>
+          <li class="skills__list-item btn btn--plain">Firewalls</li>
+          <li class="skills__list-item btn btn--plain">ACL</li>
+          <li class="skills__list-item btn btn--plain">Security Groups</li>
+          <li class="skills__list-item btn btn--plain">Network Segmentation</li>
+        </ul>
+      </section>
+
+    <footer class="footer">
+      <a
+        href="" 
+        class="link footer__link"
+      >  
+        Created By Ansh Vora!
+      </a>
+    </footer>
+
+    <div class="scroll-container">
+    <div class="scroll-top">
+      <a aria-label="Scroll up" href="#top">
+        <i aria-hidden="true" class="fas fa-arrow-up"></i>
+      </a>
+    </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
